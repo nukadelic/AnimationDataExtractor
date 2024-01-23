@@ -1,9 +1,12 @@
 
-using System.Collections.Generic;
-
-using UnityEngine;
-
-public class AnimDataCurve : ScriptableObject
+namespace AnimDataNS
 {
-    public List<AnimDataTypes.DataCurve> data;
+    using System.Collections.Generic;
+
+    using UnityEngine;
+
+    public class AnimDataCurve : ScriptableObject
+    {
+        public List<AnimDataTypes.DataCurve> data;
+    }
 }
